@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/RedHat-EMEA-SSA-Team/ns-apps
+      repoURL: https://github.com/lniesz/ns-apps
       revision: appsets
       directories:
       - path: apps/*
@@ -20,7 +20,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/RedHat-EMEA-SSA-Team/ns-apps
+        repoURL: https://github.com/lniesz/ns-apps
         targetRevision: appsets
         path: '{{path}}'
       destination:
